@@ -4,7 +4,7 @@
     margin: 0px;  
 }
 body{
-    background-image: url(../Assets/backgroundmobile.jpeg);background-repeat: no-repeat;
+    background: url(../Assets/backgroundmobile.jpeg);background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     max-width: 1920px;
