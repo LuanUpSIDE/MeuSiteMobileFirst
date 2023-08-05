@@ -1,0 +1,53 @@
+
+
+h1{
+    font-family: 'Anonymous Pro', monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.imc-title{
+    font-family: 'Anonymous Pro', monospace;
+
+
+
+}
+
+.div-inputs{
+    top: 50px;
+    position: relative;
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(77, 75, 76, 0.651);
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    gap: 10px;
+    flex-direction:column;
+}
+.imc-title{
+    bottom: 30px;
+    position: relative;
+}
+
+.div-inputs> input{
+    position: relative;
+    border-radius: 2px;
+    border-style:hidden;
+}
+
+.div-inputs > .btn-enviar{
+    background-color: rgb(54, 31, 25);
+    position: relative;
+    top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+
+}
+
+.div-inputs > .input-resultado{
+    top: 15px;
+    position: relative;
+}

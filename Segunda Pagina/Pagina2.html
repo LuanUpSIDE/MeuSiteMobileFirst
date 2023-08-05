@@ -3,21 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Assets/favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../Assets/style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <h1>
-            Pagina 2
+            Calculadora de IMC
         </h1>
        
     </header>
-    <nav>
+    <nav class="nav-bar">
         <a href="../Inicio/Index.html">Inicio</a>
-        <a href="./Pagina2.html">Segunda Pagina</a>
+        <a href="./Pagina2.html">IMC</a>
+        <a href="">Em Breve</a>
 
     </nav>
-    
+
+
+
+        <div class="div-inputs">
+            <h2 class="imc-title">IMC</h2>
+            <input oninput="mascara(this)" class="input-altura" id="Altura" type="text" placeholder="Altura" maxlength="4" size="8">
+            <input oninput="mascara2(this)" class="input-peso" id="Peso" type="text" placeholder="Peso" maxlength="3" size="8">
+            <input class="input-resultado" id="Resultado" type="text" disabled placeholder="Resultado">
+            <input class="btn-enviar" id="enviar" type="submit">
+        </div>  
+        
+    <script src="./JS/script.js"></script>
 </body>
 </html>

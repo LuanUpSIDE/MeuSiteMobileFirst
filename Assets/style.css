@@ -1,13 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Crimson+Text:wght@400;700&display=swap');
 
+
 *{
     margin: 0px;  
 }
 body{
-    background: url(../Assets/backgroundmobile.jpeg) lightgray 50% / cover no-repeat fixed;
+    background: url(../Assets/backgroundmobile.jpeg) rgba(177, 172, 172, 0.76) 50% / cover no-repeat fixed;
     /*background-repeat: no-repeat;
     background-size: cover;*/
     max-width: 1920px;
     min-width: 512px;
-    display: flex;
+    color: white;
+    
+}
+.nav-bar{
+margin: auto;
+border-radius: 20px;
+background-color: rgba(77, 75, 76, 0.651);
+position: relative;
+padding: 10px;
+display: flex;
+gap: 40px;
+text-align: center;
+justify-content: center;
+max-width: 450px;
+}
+.nav-bar > a{
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+    color: white;
 }
