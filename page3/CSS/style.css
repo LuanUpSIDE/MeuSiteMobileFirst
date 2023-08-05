@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+
+
+form{
+    top: 50px;
+    padding: 25px;
+    margin: auto;
+    background-color: rgba(77, 75, 76, 0.651);
+    font-family: 'Anonymous Pro', monospace;
+    position: relative;
+    text-align: center;
+    width: 180px;
+    
+}
+h2{
+    bottom: 20px;
+    position: relative;
+}
+
+form > input{
+margin: auto;
+border-radius: 5px;
+display: block;
+
+}
