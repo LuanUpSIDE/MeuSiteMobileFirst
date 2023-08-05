@@ -9,6 +9,7 @@
 body{
     background-image: url(../Assets/backgroundmobile.jpg);background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     max-width: 1920px;
     min-width: 512px;
 }
