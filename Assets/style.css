@@ -2,12 +2,12 @@
 
 
 *{
-    margin: 0px;  
+    margin: 0px;
+    
+    
 }
 body{
     background: url(../Assets/backgroundmobile.jpeg) rgba(177, 172, 172, 0.76) 50% / cover no-repeat fixed;
-    /*background-repeat: no-repeat;
-    background-size: cover;*/
     max-width: 1920px;
     min-width: 512px;
     color: white;
