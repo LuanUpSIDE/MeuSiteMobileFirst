@@ -11,28 +11,7 @@ body{
     color: white;
     
 }
-@media screen and (min-width: 320px) {
-    body {
-        min-width: 320px;
-    }
-  }
-@media screen and (min-width: 350px) {
-    body {
-        min-width: 350px;
-    }
-  }
-  @media screen and (min-width: 516px) {
-    body {
-        min-width: 516px;
-    }
-  }
 
-
-@media screen and (max-width: 1920px) {
-    body {
-        min-width: 1920px;
-    }
-  }
   
 .nav-bar{
 margin: auto;
@@ -47,8 +26,9 @@ justify-content: center;
 }
 @media screen and (min-width: 320px) {
     .nav-bar {
-    gap: 10px;
+    gap: 15px;
     padding: 4px;
+    width: 450px;
     }
   }
 
@@ -57,11 +37,18 @@ justify-content: center;
   @media screen and (min-width: 516px) {
     .nav-bar {
     gap: 30px;
-    width: 513px;
+    width: 480px;
     }
   }
 
-  @media screen and (max-width: 1920px) {
+  @media screen and (min-width: 1366px) {
+    .nav-bar {
+    gap: 30px;
+    width: 480px;
+    }
+  }
+
+  @media screen and (min-width: 1920px) {
     .nav-bar {
         gap: 80px;
         width: 800px;
