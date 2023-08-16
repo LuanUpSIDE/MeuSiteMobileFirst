@@ -2,31 +2,37 @@ h1{
     text-align: center;
     font-family: 'Anonymous Pro', monospace;
 }
-
-.section{
+.div-sobre-site{
     top: 10px;
     position: relative;
     margin: auto;
     background-color: rgba(77, 75, 76, 0.651);
     padding: 20px;
-    width: 425px;
     border-radius: 10px
 }
 @media screen and (min-width: 320px) {
-    .section {
+    .div-sobre-site {
         width: 250px;
     }
   }
 
 @media screen and (min-width: 425px) {
-    .section {
+    .div-sobre-site {
         width: 320px;
     }
   }
 
 @media screen and (min-width: 500px) {
-    .section {
+    .div-sobre-site {
         width: 425px;
+    }
+  }
+
+@media screen and (min-width: 1300px) {
+    .div-sobre-site {
+        top: 50px;
+        width: 450px;
+        right: 400px;
     }
   }
 
@@ -35,9 +41,9 @@ h1{
 
 
 .sobre-site{
- display: flex;
- justify-content: center;
- font-family: 'Anonymous Pro', monospace;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Anonymous Pro', monospace;
 }
 
 .paragrafo{
@@ -45,7 +51,7 @@ h1{
     font-size: 25px;
     margin: auto;
     text-align: justify;
-    border-radius: 10px;
+    
 
 
 }
