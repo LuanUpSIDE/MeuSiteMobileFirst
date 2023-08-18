@@ -36,6 +36,14 @@ h1{
     }
   }
 
+  @media screen and (min-width: 1900px) {
+    .div-sobre-site {
+        top: 50px;
+        width: 450px;
+        right: 500px;
+    }
+  }
+
   
 
 

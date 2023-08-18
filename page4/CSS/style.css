@@ -1,31 +1,28 @@
 h1{
     text-align: center;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Crimson Text', serif;
 }
 
-.section{
-    top: 10px;
+.h2-playlists{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
     position: relative;
+    top: 25px;
+    font-family: 'Crimson Text', serif;
+}
+.ul-lists{
+    width: 300px;
+    height: 120px;
+    border-radius: 20px;
     margin: auto;
     background-color: rgba(77, 75, 76, 0.651);
-    padding: 20px;
-    width: 425px;
-    border-radius: 10px
+    position: relative;
+    top: 50px;
 }
 
-.sobre-site{
- display: flex;
- justify-content: center;
- font-family: 'Anonymous Pro', monospace;
+.ul-lists a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Crimson Text', serif;
 }
-
-.paragrafo{
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 25px;
-    margin: auto;
-    text-align: justify;
-    border-radius: 10px;
-
-
-}
-

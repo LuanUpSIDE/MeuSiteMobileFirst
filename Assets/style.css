@@ -46,7 +46,7 @@ justify-content: center;
   }
 
 .nav-bar > a{
-    font-family: 'Crimson Text', serif;
+    font-family: 'Anonymous Pro', monospace;
     text-decoration: none;
     color: white;
 }
@@ -63,8 +63,8 @@ justify-content: center;
     }
   }
 
-  @media screen and (min-width: 1920px) {
+  @media screen and (min-width: 1900px) {
     .nav-bar > a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     }
   }
