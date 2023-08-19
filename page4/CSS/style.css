@@ -25,3 +25,42 @@ h1{
     color: white;
     font-family: 'Crimson Text', serif;
 }
+
+.div-akita{
+    margin: auto;
+    position: relative;
+    top: 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+@media screen and (min-width: 350px) {
+    .playlist-akita {
+    width: 340px;
+    height: 191px;
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    .playlist-akita {
+        width: 450px;
+        height: 255px;
+    }
+  }
+
+  @media screen and (min-width: 650px) {
+    .playlist-akita {
+        width: 650px;
+        height: 365px;
+    }
+  }
+
+
+  @media screen and (min-width: 1900px) {
+    .playlist-akita {
+    width: 820px;
+    height: 460px;
+    }
+  }
