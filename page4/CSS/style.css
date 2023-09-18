@@ -1,31 +1,66 @@
 h1{
     text-align: center;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Crimson Text', serif;
 }
 
-.section{
-    top: 10px;
+.h2-playlists{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
     position: relative;
+    top: 25px;
+    font-family: 'Crimson Text', serif;
+}
+.ul-lists{
+    width: 300px;
+    height: 120px;
+    border-radius: 20px;
     margin: auto;
     background-color: rgba(77, 75, 76, 0.651);
-    padding: 20px;
-    width: 425px;
-    border-radius: 10px
+    position: relative;
+    top: 50px;
 }
 
-.sobre-site{
- display: flex;
- justify-content: center;
- font-family: 'Anonymous Pro', monospace;
+.ul-lists a{
+    color: white;
+    font-family: 'Crimson Text', serif;
 }
 
-.paragrafo{
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 25px;
+.div-akita{
     margin: auto;
-    text-align: justify;
-    border-radius: 10px;
-
-
+    position: relative;
+    top: 80px;
+    justify-content: center;
+    text-align: center;
 }
 
+
+
+@media screen and (min-width: 350px) {
+    .playlist-akita {
+    width: 340px;
+    height: 191px;
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    .playlist-akita {
+        width: 450px;
+        height: 255px;
+    }
+  }
+
+  @media screen and (min-width: 650px) {
+    .playlist-akita {
+        width: 650px;
+        height: 365px;
+    }
+  }
+
+
+  @media screen and (min-width: 1900px) {
+    .playlist-akita {
+    width: 820px;
+    height: 460px;
+    }
+  }
